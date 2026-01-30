@@ -1,0 +1,12 @@
+# Large GeoJSON files (not needed for data extraction)
+ContinenteFreguesias.geojson
+geojson_compras.json
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
