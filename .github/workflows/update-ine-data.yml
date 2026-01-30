@@ -44,5 +44,6 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add dados_ine*.json
+          git add -u  # Stage deletions of old files
           git commit -m "Update INE housing data - $(date +'%Y-%m-%d')"
           git push

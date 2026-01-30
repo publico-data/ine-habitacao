@@ -6,11 +6,10 @@ library(jsonlite)
 # =============================================================================
 
 INDICADOR <- "0012234"
-START_YEAR <- 2021
-START_QUARTER <- 1
+NUM_QUARTERS <- 18  # Rolling window: always keep this many quarters
 
 # =============================================================================
-# AUTO-DETECT PERIODS
+# AUTO-DETECT PERIODS (Rolling Window)
 # =============================================================================
 
 # Get current date and calculate current quarter
@@ -29,18 +28,23 @@ if (current_quarter == 1) {
   latest_quarter <- current_quarter - 1
 }
 
-# Generate all period codes from START to latest
+# Generate period codes going back NUM_QUARTERS from latest
 PERIODO <- c()
-for (year in START_YEAR:latest_year) {
-  end_q <- if (year == latest_year) latest_quarter else 4
-  start_q <- if (year == START_YEAR) START_QUARTER else 1
-  for (q in start_q:end_q) {
-    PERIODO <- c(PERIODO, paste0("S5A", year, q))
+year <- latest_year
+quarter <- latest_quarter
+
+for (i in 1:NUM_QUARTERS) {
+  PERIODO <- c(PERIODO, paste0("S5A", year, quarter))
+
+  # Move to previous quarter
+  quarter <- quarter - 1
+  if (quarter == 0) {
+    quarter <- 4
+    year <- year - 1
   }
 }
 
-# Reverse to have newest first
-PERIODO <- rev(PERIODO)
+# PERIODO is already newest first
 
 cat("=============================================================================\n")
 cat("INE Housing Data Extraction\n")
@@ -102,13 +106,43 @@ if (length(todos_dados) > 0) {
     cat("Saved:", output_file, "\n")
   }
 
-  # Save combined file
-  output_combined <- paste0("dados_ine_combined_", format(Sys.Date(), "%Y%m%d"), ".json")
+  # Save combined file (fixed name for consistency)
+  output_combined <- "dados_ine_combined.json"
   write_json(todos_dados, output_combined, pretty = TRUE, auto_unbox = TRUE)
   cat("\nCombined file:", output_combined, "\n")
 
+  # =============================================================================
+  # CLEANUP: Remove old quarter files outside the rolling window
+  # =============================================================================
+
+  cat("\n=============================================================================\n")
+  cat("Cleanup\n")
+  cat("=============================================================================\n\n")
+
+  # Find all existing period files
+  existing_files <- list.files(pattern = "^dados_ine_S5A[0-9]{5}\\.json$")
+  current_periods <- names(todos_dados)
+
+  for (file in existing_files) {
+    # Extract period code from filename
+    periodo <- sub("dados_ine_", "", sub("\\.json$", "", file))
+
+    if (!(periodo %in% current_periods)) {
+      cat("Removing old file:", file, "\n")
+      file.remove(file)
+    }
+  }
+
+  # Also remove old dated combined files
+  old_combined <- list.files(pattern = "^dados_ine_combined_[0-9]{8}\\.json$")
+  for (file in old_combined) {
+    cat("Removing old combined file:", file, "\n")
+    file.remove(file)
+  }
+
   cat("\nTotal periods:", length(todos_dados), "\n")
   cat("Latest period:", names(todos_dados)[1], "\n")
+  cat("Oldest period:", names(todos_dados)[length(todos_dados)], "\n")
 } else {
   cat("\nNo data was downloaded\n")
   quit(status = 1)
