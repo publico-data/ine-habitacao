@@ -99,9 +99,15 @@ if (length(todos_dados) > 0) {
   cat("Saving files\n")
   cat("=============================================================================\n\n")
 
-  # Save individual period files
+  # Create trimestres folder if it doesn't exist
+  if (!dir.exists("trimestres")) {
+    dir.create("trimestres")
+    cat("Created trimestres/ folder\n")
+  }
+
+  # Save individual period files in trimestres folder
   for (periodo in names(todos_dados)) {
-    output_file <- paste0("dados_ine_", periodo, ".json")
+    output_file <- file.path("trimestres", paste0("dados_ine_", periodo, ".json"))
     write_json(todos_dados[[periodo]], output_file, pretty = TRUE, auto_unbox = TRUE)
     cat("Saved:", output_file, "\n")
   }
@@ -119,13 +125,13 @@ if (length(todos_dados) > 0) {
   cat("Cleanup\n")
   cat("=============================================================================\n\n")
 
-  # Find all existing period files
-  existing_files <- list.files(pattern = "^dados_ine_S5A[0-9]{5}\\.json$")
+  # Find all existing period files in trimestres folder
+  existing_files <- list.files("trimestres", pattern = "^dados_ine_S5A[0-9]{5}\\.json$", full.names = TRUE)
   current_periods <- names(todos_dados)
 
   for (file in existing_files) {
     # Extract period code from filename
-    periodo <- sub("dados_ine_", "", sub("\\.json$", "", file))
+    periodo <- sub("dados_ine_", "", sub("\\.json$", "", basename(file)))
 
     if (!(periodo %in% current_periods)) {
       cat("Removing old file:", file, "\n")
@@ -133,10 +139,17 @@ if (length(todos_dados) > 0) {
     }
   }
 
-  # Also remove old dated combined files
+  # Also remove old dated combined files from root
   old_combined <- list.files(pattern = "^dados_ine_combined_[0-9]{8}\\.json$")
   for (file in old_combined) {
     cat("Removing old combined file:", file, "\n")
+    file.remove(file)
+  }
+
+  # Clean up old files in root directory (from before folder organization)
+  old_root_files <- list.files(pattern = "^dados_ine_S5A[0-9]{5}\\.json$")
+  for (file in old_root_files) {
+    cat("Removing old root file:", file, "\n")
     file.remove(file)
   }
 

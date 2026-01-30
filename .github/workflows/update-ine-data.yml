@@ -32,7 +32,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if [[ -n $(git status --porcelain dados_ine*.json) ]]; then
+          if [[ -n $(git status --porcelain dados_ine*.json trimestres/) ]]; then
             echo "changes=true" >> $GITHUB_OUTPUT
           else
             echo "changes=false" >> $GITHUB_OUTPUT
@@ -43,7 +43,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add dados_ine*.json
+          git add dados_ine*.json trimestres/
           git add -u  # Stage deletions of old files
           git commit -m "Update INE housing data - $(date +'%Y-%m-%d')"
           git push

@@ -2,6 +2,9 @@
 ContinenteFreguesias.geojson
 geojson_compras.json
 
+# Old dated combined files
+dados_ine_combined_*.json
+
 # R artifacts
 .Rhistory
 .RData
