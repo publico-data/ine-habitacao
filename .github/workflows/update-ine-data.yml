@@ -46,3 +46,26 @@ jobs:
           git add -u  # Stage deletions of old files
           git commit -m "Update INE housing data - $(date +'%Y-%m-%d')"
           git push
+
+      - name: Update visualization repo
+        if: steps.check_changes.outputs.changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.CROSS_REPO_TOKEN }}
+        run: |
+          # Clone the preco-m2-habitacao repo using token
+          cd ..
+          git clone https://x-access-token:${GH_TOKEN}@github.com/publico-data/preco-m2-habitacao.git
+          cd preco-m2-habitacao
+
+          # Copy the updated combined file
+          cp ../ine-habitacao/dados_ine_combined.json src/data/
+
+          # Run the transformation script to regenerate geojson
+          Rscript transform_ine_to_geojson.R
+
+          # Commit and push if there are changes
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/data/dados_ine_combined.json src/data/geojson_compras_updated.json
+          git diff --staged --quiet || git commit -m "Update INE data and regenerate GeoJSON - $(date +'%Y-%m-%d')"
+          git push
