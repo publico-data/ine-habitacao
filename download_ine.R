@@ -70,24 +70,41 @@ for (periodo in PERIODO) {
 
   cat("Downloading:", periodo, "... ")
 
-  tryCatch({
-    response <- GET(url, timeout(30))
+  # Retry logic: try up to 3 times with increasing delays
+  success <- FALSE
+  max_retries <- 3
 
-    if (status_code(response) == 200) {
-      dados <- content(response, as = "parsed", encoding = "UTF-8")
+  for (attempt in 1:max_retries) {
+    tryCatch({
+      response <- GET(url, timeout(60), user_agent("R/httr INE Data Extractor"))
 
-      if (length(dados) > 0 && !is.null(dados[[1]]$Dados)) {
-        todos_dados[[periodo]] <- dados
-        cat("OK -", length(dados[[1]]$Dados[[1]]), "records\n")
+      if (status_code(response) == 200) {
+        dados <- content(response, as = "parsed", encoding = "UTF-8")
+
+        if (length(dados) > 0 && !is.null(dados[[1]]$Dados)) {
+          todos_dados[[periodo]] <- dados
+          cat("OK -", length(dados[[1]]$Dados[[1]]), "records\n")
+          success <- TRUE
+          break
+        } else {
+          cat("No data available yet\n")
+          success <- TRUE
+          break
+        }
       } else {
-        cat("No data available yet\n")
+        cat("Error:", status_code(response), "\n")
       }
-    } else {
-      cat("Error:", status_code(response), "\n")
-    }
-  }, error = function(e) {
-    cat("Error:", e$message, "\n")
-  })
+    }, error = function(e) {
+      if (attempt < max_retries) {
+        cat(sprintf("Retry %d/%d... ", attempt, max_retries))
+        Sys.sleep(2 * attempt)  # Exponential backoff: 2s, 4s, 6s
+      } else {
+        cat("Failed:", e$message, "\n")
+      }
+    })
+
+    if (success) break
+  }
 }
 
 # =============================================================================
@@ -157,6 +174,14 @@ if (length(todos_dados) > 0) {
   cat("Latest period:", names(todos_dados)[1], "\n")
   cat("Oldest period:", names(todos_dados)[length(todos_dados)], "\n")
 } else {
-  cat("\nNo data was downloaded\n")
+  cat("\n=============================================================================\n")
+  cat("ERROR: No data was downloaded\n")
+  cat("=============================================================================\n\n")
+  cat("All download attempts failed. This could be due to:\n")
+  cat("- INE API is temporarily unavailable\n")
+  cat("- Network connectivity issues\n")
+  cat("- IP blocking or rate limiting from INE servers\n")
+  cat("- GitHub Actions IP range may be blocked by INE\n\n")
+  cat("Suggestion: Try running the script manually or wait for the next scheduled run.\n")
   quit(status = 1)
 }
