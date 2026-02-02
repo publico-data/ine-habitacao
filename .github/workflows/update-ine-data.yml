@@ -22,9 +22,7 @@ jobs:
           r-version: '4.3.0'
 
       - name: Install R packages
-        run: |
-          install.packages(c("httr", "jsonlite"), repos = "https://cloud.r-project.org")
-        shell: Rscript {0}
+        run: Rscript -e 'install.packages(c("httr", "jsonlite"), repos = "https://cloud.r-project.org")'
 
       - name: Run INE data extraction
         run: Rscript download_ine.R
