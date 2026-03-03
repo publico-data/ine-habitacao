@@ -24,6 +24,11 @@ jobs:
           r-version: '4.3.0'
           use-public-rspm: true
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Install system dependencies
         run: |
           sudo apt-get update
@@ -69,6 +74,9 @@ jobs:
 
           # Run the transformation script to regenerate geojson
           Rscript transform_ine_to_geojson.R
+
+          # Consolidate freguesias into municipalities
+          node consolidate_freguesias.js
 
           # Commit and push if there are changes
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
