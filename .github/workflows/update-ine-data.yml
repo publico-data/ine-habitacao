@@ -62,7 +62,7 @@ jobs:
           git push
 
       - name: Update visualization repo
-        if: steps.check_changes.outputs.changes == 'true'
+        if: always()
         run: |
           # Run scripts here in ine-habitacao (where all their input/output files live)
           Rscript transform_ine_to_geojson.R
