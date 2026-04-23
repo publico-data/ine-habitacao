@@ -1,9 +1,9 @@
 name: Update INE Housing Data
 
 on:
-  # Run quarterly - 3rd of Feb, May, Aug, Nov at 16:00 UTC
+  # Run quarterly - 24th of Jan, Apr, Jul, Nov at 16:00 UTC
   schedule:
-    - cron: '0 16 3 2,5,8,11 *'
+    - cron: '30 11 24 1,4,7,10 *'
 
   # Allow manual trigger
   workflow_dispatch:
