@@ -1,6 +1,5 @@
 # Large GeoJSON files (not needed for data extraction)
 ContinenteFreguesias.geojson
-geojson_compras.json
 
 # Old dated combined files
 dados_ine_combined_*.json
