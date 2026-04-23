@@ -64,20 +64,16 @@ jobs:
       - name: Update visualization repo
         if: steps.check_changes.outputs.changes == 'true'
         run: |
-          # Clone the preco-m2-habitacao repo using token
+          # Run scripts here in ine-habitacao (where all their input/output files live)
+          Rscript transform_ine_to_geojson.R
+          node consolidate_freguesias.js
+          # Now clone the visualization repo
           cd ..
           git clone https://${{ secrets.CROSS_REPO_TOKEN }}@github.com/publico-data/preco-m2-habitacao.git
           cd preco-m2-habitacao
-
-          # Copy the updated combined file
+          # Copy outputs from ine-habitacao
           cp ../ine-habitacao/dados_ine_combined.json src/data/
-
-          # Run the transformation script to regenerate geojson
-          Rscript transform_ine_to_geojson.R
-
-          # Consolidate freguesias into municipalities
-          node consolidate_freguesias.js
-
+          cp ../ine-habitacao/geojson_compras_updated.json src/data/
           # Commit and push if there are changes
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
