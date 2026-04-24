@@ -3,9 +3,9 @@
     "IndicadorCod": "0012234",
     "IndicadorDsg": "Valor mediano das vendas de alojamentos familiares nos últimos 12 meses (Metodologia 2022 - €/ m²) por Localização geográfica (NUTS - 2024) e Categoria do alojamento familiar; Trimestral - INE, Estatísticas de preços da habitação ao nível local (Metodologia 2022)",
     "MetaInfUrl": "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012234&lingua=PT",
-    "DataExtracao": "2026-04-23T19:42:15.000+01:00",
-    "DataUltimoAtualizacao": "2026-02-02",
-    "UltimoPref": "3.º Trimestre de 2025",
+    "DataExtracao": "2026-04-24T11:17:50.612+01:00",
+    "DataUltimoAtualizacao": "2026-04-24",
+    "UltimoPref": "4.º Trimestre de 2025",
     "Dados": {
       "4.º Trimestre de 2022": [
         {
