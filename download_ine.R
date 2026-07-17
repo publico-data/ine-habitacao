@@ -25,7 +25,7 @@ if (current_quarter == 1) {
   latest_quarter <- 4
 } else {
   latest_year <- current_year
-  latest_quarter <- current_quarter - 1
+  latest_quarter <- current_quarter - 2
 }
 
 # Generate period codes going back NUM_QUARTERS from latest
