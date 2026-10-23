@@ -3,9 +3,9 @@
     "IndicadorCod": "0012234",
     "IndicadorDsg": "Valor mediano das vendas de alojamentos familiares nos últimos 12 meses (Metodologia 2022 - €/ m²) por Localização geográfica (NUTS - 2024) e Categoria do alojamento familiar; Trimestral - INE, Estatísticas de preços da habitação ao nível local (Metodologia 2022)",
     "MetaInfUrl": "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012234&lingua=PT",
-    "DataExtracao": "2026-07-17T13:27:17.233+01:00",
-    "DataUltimoAtualizacao": "2026-07-17",
-    "UltimoPref": "1.º Trimestre de 2026",
+    "DataExtracao": "2026-10-23T13:44:29.456+01:00",
+    "DataUltimoAtualizacao": "2026-10-23",
+    "UltimoPref": "2.º Trimestre de 2026",
     "Dados": {
       "1.º Trimestre de 2026": [
         {
@@ -1445,8 +1445,8 @@
           "geodsg": "Loureiro",
           "dim_3": "H1",
           "dim_3_t": "Total",
-          "ind_string": "1 210",
-          "valor": "1210"
+          "ind_string": "1 207",
+          "valor": "1207"
         },
         {
           "geocod": "19",
@@ -1517,8 +1517,8 @@
           "geodsg": "Estarreja",
           "dim_3": "H1",
           "dim_3_t": "Total",
-          "ind_string": "1 248",
-          "valor": "1248"
+          "ind_string": "1 250",
+          "valor": "1250"
         },
         {
           "geocod": "1C20205",
@@ -1577,14 +1577,6 @@
           "valor": "1286"
         },
         {
-          "geocod": "1D31404",
-          "geodsg": "Alpiarça",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 291",
-          "valor": "1291"
-        },
-        {
           "geocod": "193100907",
           "geodsg": "Caranguejeira",
           "dim_3": "H1",
@@ -1593,20 +1585,20 @@
           "valor": "1297"
         },
         {
+          "geocod": "1D31404",
+          "geodsg": "Alpiarça",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "ind_string": "1 302",
+          "valor": "1302"
+        },
+        {
           "geocod": "1190307",
           "geodsg": "Fafe",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "ind_string": "1 303",
           "valor": "1303"
-        },
-        {
-          "geocod": "11A010932",
-          "geodsg": "União das freguesias de Caldas de São Jorge e Pigeiros",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 309",
-          "valor": "1309"
         },
         {
           "geocod": "2004301",
@@ -1809,20 +1801,20 @@
           "valor": "1412"
         },
         {
-          "geocod": "11A0113",
-          "geodsg": "Oliveira de Azeméis",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 412",
-          "valor": "1412"
-        },
-        {
           "geocod": "192",
           "geodsg": "Região de Coimbra",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "ind_string": "1 413",
           "valor": "1413"
+        },
+        {
+          "geocod": "11A0113",
+          "geodsg": "Oliveira de Azeméis",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "ind_string": "1 415",
+          "valor": "1415"
         },
         {
           "geocod": "1D21420",
@@ -1937,14 +1929,6 @@
           "valor": "1475"
         },
         {
-          "geocod": "11A010934",
-          "geodsg": "União das freguesias de Lobão, Gião, Louredo e Guisande",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 476",
-          "valor": "1476"
-        },
-        {
           "geocod": "119030865",
           "geodsg": "São Torcato",
           "dim_3": "H1",
@@ -2041,14 +2025,6 @@
           "valor": "1506"
         },
         {
-          "geocod": "11A011320",
-          "geodsg": "União das freguesias de Nogueira do Cravo e Pindelo",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 507",
-          "valor": "1507"
-        },
-        {
           "geocod": "3003107",
           "geodsg": "Ribeira Brava",
           "dim_3": "H1",
@@ -2097,20 +2073,12 @@
           "valor": "1522"
         },
         {
-          "geocod": "11A010936",
-          "geodsg": "União de freguesias de São Miguel de Souto e Mosteirô",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 525",
-          "valor": "1525"
-        },
-        {
           "geocod": "1190314",
           "geodsg": "Vizela",
           "dim_3": "H1",
           "dim_3_t": "Total",
-          "ind_string": "1 540",
-          "valor": "1540"
+          "ind_string": "1 534",
+          "valor": "1534"
         },
         {
           "geocod": "11A131433",
@@ -2143,14 +2111,6 @@
           "dim_3_t": "Total",
           "ind_string": "1 552",
           "valor": "1552"
-        },
-        {
-          "geocod": "193100940",
-          "geodsg": "União das freguesias de Souto da Carpalhosa e Ortigosa",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 553",
-          "valor": "1553"
         },
         {
           "geocod": "1D31406",
@@ -2247,14 +2207,6 @@
           "dim_3_t": "Total",
           "ind_string": "1 595",
           "valor": "1595"
-        },
-        {
-          "geocod": "11A010933",
-          "geodsg": "União das freguesias de Canedo, Vale e Vila Maior",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 601",
-          "valor": "1601"
         },
         {
           "geocod": "3003109",
@@ -2433,14 +2385,6 @@
           "valor": "1671"
         },
         {
-          "geocod": "119031254",
-          "geodsg": "União das freguesias de Esmeriz e Cabeçudos",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 675",
-          "valor": "1675"
-        },
-        {
           "geocod": "1120302",
           "geodsg": "Barcelos",
           "dim_3": "H1",
@@ -2495,14 +2439,6 @@
           "dim_3_t": "Total",
           "ind_string": "1 704",
           "valor": "1704"
-        },
-        {
-          "geocod": "119031255",
-          "geodsg": "União das freguesias de Gondifelos, Cavalões e Outiz",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 705",
-          "valor": "1705"
         },
         {
           "geocod": "11A010925",
@@ -2681,14 +2617,6 @@
           "valor": "1799"
         },
         {
-          "geocod": "11A131314",
-          "geodsg": "União das freguesias de Aguçadoura e Navais",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 801",
-          "valor": "1801"
-        },
-        {
           "geocod": "119031235",
           "geodsg": "Ribeirão",
           "dim_3": "H1",
@@ -2777,6 +2705,14 @@
           "valor": "1846"
         },
         {
+          "geocod": "11A131011",
+          "geodsg": "Gandra",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "ind_string": "1 847",
+          "valor": "1847"
+        },
+        {
           "geocod": "11A1318",
           "geodsg": "Trofa",
           "dim_3": "H1",
@@ -2817,14 +2753,6 @@
           "valor": "1856"
         },
         {
-          "geocod": "11A131011",
-          "geodsg": "Gandra",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 856",
-          "valor": "1856"
-        },
-        {
           "geocod": "1111609",
           "geodsg": "Viana do Castelo",
           "dim_3": "H1",
@@ -2839,14 +2767,6 @@
           "dim_3_t": "Total",
           "ind_string": "1 865",
           "valor": "1865"
-        },
-        {
-          "geocod": "150080812",
-          "geodsg": "União de freguesias de Querença, Tôr e Benafim",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 866",
-          "valor": "1866"
         },
         {
           "geocod": "112030374",
@@ -2905,14 +2825,6 @@
           "valor": "1904"
         },
         {
-          "geocod": "11A131729",
-          "geodsg": "União das freguesias de Sandim, Olival, Lever e Crestuma",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 907",
-          "valor": "1907"
-        },
-        {
           "geocod": "11A131604",
           "geodsg": "Azurara",
           "dim_3": "H1",
@@ -2961,22 +2873,6 @@
           "valor": "1932"
         },
         {
-          "geocod": "11A131506",
-          "geodsg": "União das freguesias de Campo e Sobrado",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 938",
-          "valor": "1938"
-        },
-        {
-          "geocod": "11A131725",
-          "geodsg": "União das freguesias de Grijó e Sermonde",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 949",
-          "valor": "1949"
-        },
-        {
           "geocod": "11A131437",
           "geodsg": "União das freguesias de Santo Tirso, Couto (Santa Cristina e São Miguel) e Burgães",
           "dim_3": "H1",
@@ -2991,14 +2887,6 @@
           "dim_3_t": "Total",
           "ind_string": "1 963",
           "valor": "1963"
-        },
-        {
-          "geocod": "11A131731",
-          "geodsg": "União das freguesias de Serzedo e Perosinho",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "1 970",
-          "valor": "1970"
         },
         {
           "geocod": "119030812",
@@ -3051,14 +2939,6 @@
         {
           "geocod": "119031260",
           "geodsg": "União das freguesias de Vila Nova de Famalicão e Calendário",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 020",
-          "valor": "2020"
-        },
-        {
-          "geocod": "11A131728",
-          "geodsg": "União das freguesias de Pedroso e Seixezelo",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "ind_string": "2 020",
@@ -3217,14 +3097,6 @@
           "valor": "2127"
         },
         {
-          "geocod": "112030293",
-          "geodsg": "União das freguesias de Barcelos, Vila Boa e Vila Frescainha (São Martinho e São Pedro)",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 132",
-          "valor": "2132"
-        },
-        {
           "geocod": "119030871",
           "geodsg": "Urgezes",
           "dim_3": "H1",
@@ -3365,8 +3237,8 @@
           "geodsg": "Valongo",
           "dim_3": "H1",
           "dim_3_t": "Total",
-          "ind_string": "2 204",
-          "valor": "2204"
+          "ind_string": "2 205",
+          "valor": "2205"
         },
         {
           "geocod": "1920603",
@@ -3561,14 +3433,6 @@
           "valor": "2333"
         },
         {
-          "geocod": "11A131726",
-          "geodsg": "União das freguesias de Gulpilhares e Valadares",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 340",
-          "valor": "2340"
-        },
-        {
           "geocod": "11A131717",
           "geodsg": "São Félix da Marinha",
           "dim_3": "H1",
@@ -3665,14 +3529,6 @@
           "valor": "2390"
         },
         {
-          "geocod": "11A131315",
-          "geodsg": "União das freguesias da Póvoa de Varzim, Beiriz e Argivai",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 391",
-          "valor": "2391"
-        },
-        {
           "geocod": "11A",
           "geodsg": "Área Metropolitana do Porto",
           "dim_3": "H1",
@@ -3681,20 +3537,20 @@
           "valor": "2404"
         },
         {
-          "geocod": "1A0111412",
-          "geodsg": "União das freguesias de Alhandra, São João dos Montes e Calhandriz",
+          "geocod": "11A130617",
+          "geodsg": "Pedrouços",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "ind_string": "2 405",
           "valor": "2405"
         },
         {
-          "geocod": "150081310",
-          "geodsg": "União das freguesias de Algoz e Tunes",
+          "geocod": "1A0111412",
+          "geodsg": "União das freguesias de Alhandra, São João dos Montes e Calhandriz",
           "dim_3": "H1",
           "dim_3_t": "Total",
-          "ind_string": "2 408",
-          "valor": "2408"
+          "ind_string": "2 405",
+          "valor": "2405"
         },
         {
           "geocod": "1B0150607",
@@ -3711,14 +3567,6 @@
           "dim_3_t": "Total",
           "ind_string": "2 411",
           "valor": "2411"
-        },
-        {
-          "geocod": "11A130617",
-          "geodsg": "Pedrouços",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 413",
-          "valor": "2413"
         },
         {
           "geocod": "11A130408",
@@ -3745,14 +3593,6 @@
           "valor": "2426"
         },
         {
-          "geocod": "11A131313",
-          "geodsg": "União das freguesias de Aver-o-Mar, Amorim e Terroso",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 428",
-          "valor": "2428"
-        },
-        {
           "geocod": "1B0150407",
           "geodsg": "Santo António da Charneca",
           "dim_3": "H1",
@@ -3763,14 +3603,6 @@
         {
           "geocod": "150080402",
           "geodsg": "Castro Marim",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 442",
-          "valor": "2442"
-        },
-        {
-          "geocod": "1A0111123",
-          "geodsg": "União das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "ind_string": "2 442",
@@ -3817,14 +3649,6 @@
           "valor": "2462"
         },
         {
-          "geocod": "11A130811",
-          "geodsg": "União das freguesias de Custóias, Leça do Balio e Guifões",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 467",
-          "valor": "2467"
-        },
-        {
           "geocod": "112030378",
           "geodsg": "União das freguesias de Nogueiró e Tenões",
           "dim_3": "H1",
@@ -3865,14 +3689,6 @@
           "valor": "2500"
         },
         {
-          "geocod": "150080507",
-          "geodsg": "União das freguesias de Conceição e Estoi",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 507",
-          "valor": "2507"
-        },
-        {
           "geocod": "11A131628",
           "geodsg": "Vila do Conde",
           "dim_3": "H1",
@@ -3905,28 +3721,12 @@
           "valor": "2533"
         },
         {
-          "geocod": "150081411",
-          "geodsg": "União das freguesias de Luz de Tavira e Santo Estêvão",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 535",
-          "valor": "2535"
-        },
-        {
           "geocod": "1B0150202",
           "geodsg": "Samouco",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "ind_string": "2 536",
           "valor": "2536"
-        },
-        {
-          "geocod": "11A010706",
-          "geodsg": "União das freguesias de Anta e Guetim",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 537",
-          "valor": "2537"
         },
         {
           "geocod": "1500804",
@@ -3943,14 +3743,6 @@
           "dim_3_t": "Total",
           "ind_string": "2 543",
           "valor": "2543"
-        },
-        {
-          "geocod": "11A130813",
-          "geodsg": "União das freguesias de Perafita, Lavra e Santa Cruz do Bispo",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 550",
-          "valor": "2550"
         },
         {
           "geocod": "11A130608",
@@ -4057,14 +3849,6 @@
           "valor": "2617"
         },
         {
-          "geocod": "11A131727",
-          "geodsg": "União das freguesias de Mafamude e Vilar do Paraíso",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 621",
-          "valor": "2621"
-        },
-        {
           "geocod": "1A0110731",
           "geodsg": "União das freguesias de Camarate, Unhos e Apelação",
           "dim_3": "H1",
@@ -4111,14 +3895,6 @@
           "dim_3_t": "Total",
           "ind_string": "2 653",
           "valor": "2653"
-        },
-        {
-          "geocod": "1A0111127",
-          "geodsg": "União das freguesias de São João das Lampas e Terrugem",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 655",
-          "valor": "2655"
         },
         {
           "geocod": "192060334",
@@ -4281,14 +4057,6 @@
           "valor": "2776"
         },
         {
-          "geocod": "11A131730",
-          "geodsg": "União das freguesias de Santa Marinha e São Pedro da Afurada",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 791",
-          "valor": "2791"
-        },
-        {
           "geocod": "1B01510",
           "geodsg": "Seixal",
           "dim_3": "H1",
@@ -4319,14 +4087,6 @@
           "dim_3_t": "Total",
           "ind_string": "2 809",
           "valor": "2809"
-        },
-        {
-          "geocod": "150081006",
-          "geodsg": "União das freguesias de Moncarapacho e Fuseta",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 815",
-          "valor": "2815"
         },
         {
           "geocod": "1500813",
@@ -4425,14 +4185,6 @@
           "valor": "2852"
         },
         {
-          "geocod": "150081309",
-          "geodsg": "União das freguesias de Alcantarilha e Pêra",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 853",
-          "valor": "2853"
-        },
-        {
           "geocod": "1B01502",
           "geodsg": "Alcochete",
           "dim_3": "H1",
@@ -4447,14 +4199,6 @@
           "dim_3_t": "Total",
           "ind_string": "2 883",
           "valor": "2883"
-        },
-        {
-          "geocod": "1B0151007",
-          "geodsg": "União das freguesias do Seixal, Arrentela e Aldeia de Paio Pires",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 889",
-          "valor": "2889"
         },
         {
           "geocod": "300310303",
@@ -4537,14 +4281,6 @@
           "valor": "2965"
         },
         {
-          "geocod": "150080707",
-          "geodsg": "União das freguesias de Bensafrim e Barão de São João",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "2 976",
-          "valor": "2976"
-        },
-        {
           "geocod": "11A010702",
           "geodsg": "Espinho",
           "dim_3": "H1",
@@ -4583,14 +4319,6 @@
           "dim_3_t": "Total",
           "ind_string": "3 006",
           "valor": "3006"
-        },
-        {
-          "geocod": "1A0111126",
-          "geodsg": "União das freguesias de Queluz e Belas",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "3 013",
-          "valor": "3013"
         },
         {
           "geocod": "1A0111415",
@@ -4637,8 +4365,8 @@
           "geodsg": "Matosinhos",
           "dim_3": "H1",
           "dim_3_t": "Total",
-          "ind_string": "3 058",
-          "valor": "3058"
+          "ind_string": "3 057",
+          "valor": "3057"
         },
         {
           "geocod": "1A0110909",
@@ -4679,14 +4407,6 @@
           "dim_3_t": "Total",
           "ind_string": "3 097",
           "valor": "3097"
-        },
-        {
-          "geocod": "11A130814",
-          "geodsg": "União das freguesias de São Mamede de Infesta e Senhora da Hora",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "3 116",
-          "valor": "3116"
         },
         {
           "geocod": "150081412",
@@ -4765,8 +4485,8 @@
           "geodsg": "Loures",
           "dim_3": "H1",
           "dim_3_t": "Total",
-          "ind_string": "3 191",
-          "valor": "3191"
+          "ind_string": "3 190",
+          "valor": "3190"
         },
         {
           "geocod": "150081101",
@@ -4799,14 +4519,6 @@
           "dim_3_t": "Total",
           "ind_string": "3 222",
           "valor": "3222"
-        },
-        {
-          "geocod": "150081410",
-          "geodsg": "União das freguesias de Conceição e Cabanas de Tavira",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "3 228",
-          "valor": "3228"
         },
         {
           "geocod": "1B0150313",
@@ -4901,8 +4613,8 @@
           "geodsg": "União das freguesias de Santo António dos Cavaleiros e Frielas",
           "dim_3": "H1",
           "dim_3_t": "Total",
-          "ind_string": "3 271",
-          "valor": "3271"
+          "ind_string": "3 269",
+          "valor": "3269"
         },
         {
           "geocod": "11A131202",
@@ -4985,14 +4697,6 @@
           "valor": "3424"
         },
         {
-          "geocod": "11A130812",
-          "geodsg": "União das freguesias de Matosinhos e Leça da Palmeira",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "ind_string": "3 462",
-          "valor": "3462"
-        },
-        {
           "geocod": "1A01116",
           "geodsg": "Odivelas",
           "dim_3": "H1",
@@ -5053,8 +4757,8 @@
           "geodsg": "Odivelas",
           "dim_3": "H1",
           "dim_3_t": "Total",
-          "ind_string": "3 523",
-          "valor": "3523"
+          "ind_string": "3 524",
+          "valor": "3524"
         },
         {
           "geocod": "150081303",
@@ -6030,15 +5734,6 @@
           "ind_string": "-"
         },
         {
-          "geocod": "1120302FE",
-          "geodsg": "União das freguesias de Silveiros e Rio Covo (Santa Eulália)",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
           "geocod": "1120302FF",
           "geodsg": "União das freguesias de Tamel (Santa Leocádia) e Vilar do Monte",
           "dim_3": "H1",
@@ -6435,15 +6130,6 @@
           "ind_string": "-"
         },
         {
-          "geocod": "119030876",
-          "geodsg": "União das freguesias de Airão Santa Maria, Airão São João e Vermil",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
           "geocod": "119030877",
           "geodsg": "União das freguesias de Arosa e Castelões",
           "dim_3": "H1",
@@ -6480,26 +6166,8 @@
           "ind_string": "-"
         },
         {
-          "geocod": "119030882",
-          "geodsg": "União das freguesias de Conde e Gandarela",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
           "geocod": "119030883",
           "geodsg": "União das freguesias de Leitões, Oleiros e Figueiredo",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
-          "geocod": "119030885",
-          "geodsg": "União das freguesias de Prazins Santo Tirso e Corvite",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "sinal_conv": "-",
@@ -6516,15 +6184,6 @@
           "ind_string": "-"
         },
         {
-          "geocod": "119030887",
-          "geodsg": "União das freguesias de Sande Vila Nova e Sande São Clemente",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
           "geocod": "119030888",
           "geodsg": "União das freguesias de Selho São Lourenço e Gominhães",
           "dim_3": "H1",
@@ -6534,26 +6193,8 @@
           "ind_string": "-"
         },
         {
-          "geocod": "119030889",
-          "geodsg": "União das freguesias de Serzedo e Calvos",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
           "geocod": "119030890",
           "geodsg": "União das freguesias de Souto Santa Maria, Souto São Salvador e Gondomar",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
-          "geocod": "119030891",
-          "geodsg": "União das freguesias de Tabuadelo e São Faustino",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "sinal_conv": "-",
@@ -6678,26 +6319,8 @@
           "ind_string": "-"
         },
         {
-          "geocod": "119031252",
-          "geodsg": "União das freguesias de Avidos e Lagoa",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
           "geocod": "119031253",
           "geodsg": "União das freguesias de Carreira e Bente",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
-          "geocod": "119031257",
-          "geodsg": "União das freguesias de Ruivães e Novais",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "sinal_conv": "-",
@@ -7281,42 +6904,6 @@
           "ind_string": "-"
         },
         {
-          "geocod": "11A131632",
-          "geodsg": "União das freguesias de Fornelo e Vairão",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
-          "geocod": "11A131633",
-          "geodsg": "União das freguesias de Malta e Canidelo",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
-          "geocod": "11A131634",
-          "geodsg": "União das freguesias de Retorta e Tougues",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
-          "geocod": "11A131635",
-          "geodsg": "União das freguesias de Rio Mau e Arcos",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
           "geocod": "11A131637",
           "geodsg": "União das freguesias de Vilar e Mosteiró",
           "dim_3": "H1",
@@ -7337,15 +6924,6 @@
         {
           "geocod": "11A131808",
           "geodsg": "Muro",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
-          "geocod": "11A131809",
-          "geodsg": "União das freguesias de Alvarelhos e Guidões",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "sinal_conv": "-",
@@ -7587,15 +7165,6 @@
           "ind_string": "-"
         },
         {
-          "geocod": "193100936",
-          "geodsg": "União das freguesias de Monte Redondo e Carreira",
-          "dim_3": "H1",
-          "dim_3_t": "Total",
-          "sinal_conv": "-",
-          "sinal_conv_desc": "Dado nulo ou não aplicável",
-          "ind_string": "-"
-        },
-        {
           "geocod": "1A0110705",
           "geodsg": "Fanhões",
           "dim_3": "H1",
@@ -7677,6 +7246,222 @@
           "ind_string": "-"
         },
         {
+          "geocod": "11A010706",
+          "geodsg": "União das freguesias de Anta e Guetim",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A130811",
+          "geodsg": "União das freguesias de Custóias, Leça do Balio e Guifões",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "119031255",
+          "geodsg": "União das freguesias de Gondifelos, Cavalões e Outiz",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131728",
+          "geodsg": "União das freguesias de Pedroso e Seixezelo",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "119030885",
+          "geodsg": "União das freguesias de Prazins Santo Tirso e Corvite",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "119030891",
+          "geodsg": "União das freguesias de Tabuadelo e São Faustino",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131313",
+          "geodsg": "União das freguesias de Aver-o-Mar, Amorim e Terroso",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "193100936",
+          "geodsg": "União das freguesias de Monte Redondo e Carreira",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131632",
+          "geodsg": "União das freguesias de Fornelo e Vairão",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A010933",
+          "geodsg": "União das freguesias de Canedo, Vale e Vila Maior",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "150080707",
+          "geodsg": "União das freguesias de Bensafrim e Barão de São João",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "150081411",
+          "geodsg": "União das freguesias de Luz de Tavira e Santo Estêvão",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "193100940",
+          "geodsg": "União das freguesias de Souto da Carpalhosa e Ortigosa",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131727",
+          "geodsg": "União das freguesias de Mafamude e Vilar do Paraíso",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A010936",
+          "geodsg": "União de freguesias de São Miguel de Souto e Mosteirô",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A130813",
+          "geodsg": "União das freguesias de Perafita, Lavra e Santa Cruz do Bispo",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "1B0151007",
+          "geodsg": "União das freguesias do Seixal, Arrentela e Aldeia de Paio Pires",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131635",
+          "geodsg": "União das freguesias de Rio Mau e Arcos",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131726",
+          "geodsg": "União das freguesias de Gulpilhares e Valadares",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "119031252",
+          "geodsg": "União das freguesias de Avidos e Lagoa",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A010932",
+          "geodsg": "União das freguesias de Caldas de São Jorge e Pigeiros",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131634",
+          "geodsg": "União das freguesias de Retorta e Tougues",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "150080507",
+          "geodsg": "União das freguesias de Conceição e Estoi",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "1120302FE",
+          "geodsg": "União das freguesias de Silveiros e Rio Covo (Santa Eulália)",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
           "geocod": "11A010424",
           "geodsg": "União das freguesias de Covelo de Paivó e Janarde",
           "dim_3": "H1",
@@ -7686,8 +7471,260 @@
           "ind_string": "-"
         },
         {
+          "geocod": "150081006",
+          "geodsg": "União das freguesias de Moncarapacho e Fuseta",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131506",
+          "geodsg": "União das freguesias de Campo e Sobrado",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "119030876",
+          "geodsg": "União das freguesias de Airão Santa Maria, Airão São João e Vermil",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131729",
+          "geodsg": "União das freguesias de Sandim, Olival, Lever e Crestuma",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "150080812",
+          "geodsg": "União de freguesias de Querença, Tôr e Benafim",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "150081310",
+          "geodsg": "União das freguesias de Algoz e Tunes",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "150081309",
+          "geodsg": "União das freguesias de Alcantarilha e Pêra",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A010934",
+          "geodsg": "União das freguesias de Lobão, Gião, Louredo e Guisande",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A011320",
+          "geodsg": "União das freguesias de Nogueira do Cravo e Pindelo",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "1A0111123",
+          "geodsg": "União das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "119030889",
+          "geodsg": "União das freguesias de Serzedo e Calvos",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131725",
+          "geodsg": "União das freguesias de Grijó e Sermonde",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "119031257",
+          "geodsg": "União das freguesias de Ruivães e Novais",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131730",
+          "geodsg": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
           "geocod": "11A010420",
           "geodsg": "Várzea",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "112030293",
+          "geodsg": "União das freguesias de Barcelos, Vila Boa e Vila Frescainha (São Martinho e São Pedro)",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "119031254",
+          "geodsg": "União das freguesias de Esmeriz e Cabeçudos",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "1A0111127",
+          "geodsg": "União das freguesias de São João das Lampas e Terrugem",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131633",
+          "geodsg": "União das freguesias de Malta e Canidelo",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "1A0111126",
+          "geodsg": "União das freguesias de Queluz e Belas",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131314",
+          "geodsg": "União das freguesias de Aguçadoura e Navais",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "119030887",
+          "geodsg": "União das freguesias de Sande Vila Nova e Sande São Clemente",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "119030882",
+          "geodsg": "União das freguesias de Conde e Gandarela",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131809",
+          "geodsg": "União das freguesias de Alvarelhos e Guidões",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "150081410",
+          "geodsg": "União das freguesias de Conceição e Cabanas de Tavira",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131731",
+          "geodsg": "União das freguesias de Serzedo e Perosinho",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A131315",
+          "geodsg": "União das freguesias da Póvoa de Varzim, Beiriz e Argivai",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A130814",
+          "geodsg": "União das freguesias de São Mamede de Infesta e Senhora da Hora",
+          "dim_3": "H1",
+          "dim_3_t": "Total",
+          "sinal_conv": "-",
+          "sinal_conv_desc": "Dado nulo ou não aplicável",
+          "ind_string": "-"
+        },
+        {
+          "geocod": "11A130812",
+          "geodsg": "União das freguesias de Matosinhos e Leça da Palmeira",
           "dim_3": "H1",
           "dim_3_t": "Total",
           "sinal_conv": "-",
